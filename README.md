@@ -1,1 +1,1 @@
-# [CV Olga Ulianchenko](https://github.com/Okhmur/rsschool-cv.git "CV Olga Uliancheko")
+# [CV Olga Ulianchenko](https://okhmur.github.io/rsschool-cv/cv "CV Olga Uliancheko")

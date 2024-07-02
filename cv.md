@@ -14,7 +14,7 @@
 Specialty: economics and international business of the mining and metallurgical complex
 * 2014 – 2017, Additional education, Siberian Federal University
 Specialty: English translator in professional communication (economics)
-* March 2023, Python/Django course (including HTML/CSS basics) (https://becoder.online) 
+* March 2023, Python/Django course (including HTML/CSS basics) [Becoder.online](https://github.com/almazuulu "Becoder.online")
 *********
 ## Experience 
 * 2017 – 2022 (September) 

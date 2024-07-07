@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    min-width: 300px;
+    min-height: 100vh;
+    line-height: 1.5;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 100px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #f5eef1;
+}
+
+.section {
+    width: 50%;
+    padding: 5px;
+    border-bottom: 8px solid #c59ead;
+    font-size: 20px;
+}
+
+.section-title {
+    margin: o;
+    position: relative;
+    font-size: 30px;
+    color: #4f2235;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: initial;
+    margin-bottom: auto;
+    width: 100px;
+    padding: 40px 50px 40px;
+    align-items: center;
+}
+
+.section-code{
+    border-bottom: none;
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.main-title {
+    position: relative;
+    padding: 0;
+    font-size: 35px;
+    word-spacing: 2px;
+}
+
+
+/*
+ nav ul {
+    list-style-type: none;
+    background-color: antiquewhite;
+    padding-left: 0px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 0px;
+}
+
+nav li {
+    display: inline-block;
+    
+}
+
+li a {
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+*/
+
+.img1 {
+    width: 100px;
+    height: 100px;
+    display: inline;
+    padding: 0px;
+}
+
+.img2 {
+    width: 100px;
+    height: 100px;
+    display: inline;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 50px;
+    transition: 0.2s;
+}
+
+/*.nav-link::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    transition: .2s;
+
+
+}*/
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: hwb(336 17% 41%);
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.photo {
+    width: 190px;
+    height: 220px;
+
+}
+
+.contact-list {
+    padding: 0;
+    margin: 50px 50px 50px;
+
+}
+
+.footer {
+    display: inline;
+    background-color: #f5eef1;
+    justify-content: baseline;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.github {
+    padding: 10px;
+    size: 50px;
+}
+
+.year {
+    font-size: 30px;
+
+}
+
